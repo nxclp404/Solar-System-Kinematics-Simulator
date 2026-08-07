@@ -1,6 +1,9 @@
 import os
 import time
 import matplotlib.pyplot as plt
+from matplotlib.widgets import Cursor
+from matplotlib.widgets import MultiCursor
+import mplcursors
 
 gravities = {
     "Mercury": 3.70,
@@ -30,7 +33,6 @@ planets = [
 
 
 introduction = 'Hello ! This is a Solar System Kinematics Simulator. I am a 9th-grade physics enthusiast, at the time of this project, I have been studying physics for one month. I hope you enjoy this simulator and learn something new about planetary motion. More information is available in the "Readme" file regarding the calculations and the logic behind the simulator.'
-
 
 for into in introduction:
    print(into, end='', flush=True)
@@ -114,6 +116,8 @@ while True:
     
     print("\n Opening the graphical simulator window!")
     plt.tight_layout()
+    fig = plt.gcf()
+    mplcursors.cursor(hover=True)
     plt.show()
 
     leave = input("\nDo you want to leave the simulator? (yes/no): ").strip().lower()
