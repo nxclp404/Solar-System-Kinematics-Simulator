@@ -34,5 +34,5 @@ $$S(t) = v_0 \cdot t - \frac{g_{current} \cdot t^2}{2}$$
 
 ---
 
-## 🛠️ Software Architecture & Security Perspectives
+##  Software Architecture
 * **Dynamic Legend Positioning:** Engineered a custom layout structure using `bbox_to_anchor` and `tight_layout` to prevent dataset occlusion when graphing up to 10 celestial bodies at once.
