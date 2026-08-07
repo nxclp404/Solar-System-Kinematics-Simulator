@@ -1,13 +1,13 @@
-# 🪐 Solar System Kinematics Simulator
+#  Solar System Kinematics Simulator
 
 A basic, interactive Python simulator designed to evaluate, compare, and visualize vertical launch equations (classical kinematics) across multiple celestial bodies simultaneously.
 
-## 🧑‍💻 About the Author
+##  About the Author
 I am a 15-year-old Brazilian high school student passionate about physics. At the time of developing this project, I have been studying physics independently for just one month. My ultimate dream is to study at **MIT**, and this computational simulator represents a major milestone in my journey to build solid foundations in science, technology, and quantum mechanics.
 
 ---
 
-## 📐 The Physics Engine & Computational Logic
+##  The Physics Engine & Computational Logic
 
 The simulator models physics by assuming a frictionless environment (vacuum) and the strict application of **Classical Mechanics (MUV)** combined with the **Conservation of Mechanical Energy**.
 
