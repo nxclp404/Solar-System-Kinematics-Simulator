@@ -5,13 +5,15 @@
 A basic, interactive Python simulator designed to evaluate, compare, and visualize vertical launch equations (classical kinematics) across multiple celestial bodies simultaneously.
 
 ##  About the Author
-I am a 15-year-old Brazilian high school student passionate about physics. At the time of developing this project, I have been studying physics independently for just one month. My ultimate dream is to study at **MIT**, and this computational simulator represents a major milestone in my journey to build solid foundations in science, technology, and quantum mechanics.
+I am a 15-year-old Brazilian high school student passionate about physics. At the time of developing this project, I have been studying physics independently for just one month. My ultimate dream is to study at **MIT**, and this computational simulator represents a major milestone in my journey to build solid foundations in science, technology, and classical mechanics.
 
 ---
 
 ##  The Physics Engine & Computational Logic
 
 The simulator models physics by assuming a frictionless environment (vacuum) and the strict application of **Classical Mechanics (MUV)** combined with the **Conservation of Mechanical Energy**.
+
+**Surface gravity values for all celestial bodies were obtained from official NASA planetary reference data.**
 
 ### 1. Universal Takeoff Velocity ($v_0$) Calculation
 The system benchmarks the user's leg power based on their real-world performance on Earth. By equating Kinetic Energy ($E_c$) and Gravitational Potential Energy ($E_p$), we isolate the initial velocity required to achieve the input height ($h_{earth}$):
@@ -52,4 +54,13 @@ $$S(t) = v_0 \cdot t - \frac{g_{current} \cdot t^2}{2}$$
 ---
 
 ##  Software Architecture
-* **Dynamic Legend Positioning:** Engineered a custom layout structure using `bbox_to_anchor` and `tight_layout` to prevent dataset occlusion when graphing up to 10 celestial bodies at once.
+* **Dynamic Legend Positioning:** Engineered a custom layout structure using `bbox_to_anchor` and `tight_layout` to prevent dataset occlusion when graphing up to 10 celestial bodies at once.*
+---
+
+## References
+
+- NASA – Planetary Fact Sheet  
+  https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+
+- NASA – Solar System Exploration  
+  https://science.nasa.gov/solar-system/
