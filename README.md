@@ -1,5 +1,7 @@
 #  Solar System Kinematics Simulator
 
+![Simulation Demo](ssks.gif)
+
 A basic, interactive Python simulator designed to evaluate, compare, and visualize vertical launch equations (classical kinematics) across multiple celestial bodies simultaneously.
 
 ##  About the Author
